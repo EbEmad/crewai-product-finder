@@ -1,0 +1,12 @@
+[project]
+name = "crewai-product-finder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[agentops,tools]==0.114.0",
+    "python-dotenv>=1.2.1",
+    "scrapegraph-py>=1.44.0",
+    "tavily-python>=0.7.13",
+]
